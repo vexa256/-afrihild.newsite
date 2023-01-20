@@ -89,10 +89,11 @@
                 <div class=" col-lg-6 col-md-6 hide-scrollbar ">
                     <div class="wpo-blog-item hide-scrollbar">
                         <div class="wpo-blog-img hide-scrollbar">
-                            <a href="https://twitter.com/AfriChildCentre?ref_src=twsrc%5Etfw" class="twitter-timeline" data-width="auto" data-height="630">
+                            <a href="https://twitter.com/AfriChildCentre?ref_src=twsrc%5Etfw" class="twitter-timeline" data-width="auto" data-height="400">
                                 <img src="https://twitter.com/AfriChildCentre/photo" alt="Twitter thumbnail">
                             </a>
                         </div>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                         {{-- <div class="wpo-blog-content">
                             <div class="wpo-blog-content-top">
                                 <blockquote class="twitter-tweet">
@@ -109,7 +110,7 @@
                 <div class=" col-lg-6 col-md-6 ">
                     <div class="card" style=" ">
                         <div class="embed-responsive embed-responsive-1by1">
-                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JROXQavs0Ls" width="100%" height="630"></iframe>
+                            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JROXQavs0Ls" width="100%" height="400"></iframe>
                         </div>
                         {{-- <div class="card-body">
                             <h5 class="card-title">Video Title</h5>
