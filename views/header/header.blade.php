@@ -19,9 +19,12 @@
     <link href="{{ asset('assets/css/slick.css ') }} " rel="stylesheet">
     <link href="{{ asset('assets/css/slick-theme.css ') }} " rel="stylesheet">
     <link href="{{ asset('assets/css/swiper.min.css ') }} " rel="stylesheet">
-    <link href="{{ asset('assets/css/owl.transitions.css ') }} " rel="stylesheet">
-    <link href="{{ asset('assets/css/jquery.fancybox.css ') }} " rel="stylesheet">
-    <link href="{{ asset('assets/css/odometer-theme-default.css ') }} " rel="stylesheet">
+    <link href="{{ asset('assets/css/owl.transitions.css ') }} "
+        rel="stylesheet">
+    <link href="{{ asset('assets/css/jquery.fancybox.css ') }} "
+        rel="stylesheet">
+    <link href="{{ asset('assets/css/odometer-theme-default.css ') }} "
+        rel="stylesheet">
     <link href="{{ asset('assets/css/style.css ') }} " rel="stylesheet">
 
     <style>
@@ -68,24 +71,23 @@
             background-color: #555 !important;
         }
 
-            /* .custom-btn-sm {
+        /* .custom-btn-sm {
             width: 80px !important;
             height: 30px !important;
             font-size: 12px !important;
         */
 
         @media only screen and (max-width: 600px) {
-  .myDiv {
-    display: block;
-  }
-}
+            .myDiv {
+                display: block;
+            }
+        }
 
-@media only screen and (min-width: 600px) {
-  .myDiv {
-    display: none;
-  }
-}
-
+        @media only screen and (min-width: 600px) {
+            .myDiv {
+                display: none;
+            }
+        }
     </style>
     {{-- @isset($Photo)
         <link type="text/css" rel="stylesheet"

@@ -69,4 +69,5 @@ Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.up
 Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });*/
 
+require __DIR__ . '/cms.php';
 require __DIR__ . '/auth.php';
